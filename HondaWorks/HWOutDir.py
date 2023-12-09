@@ -1,7 +1,6 @@
 import os
-from HWTargetDir import HWTargetDir
 
-class HWOutDir(HWTargetDir):
+class HWOutDir():
 
     def __init__(self, filePath):
         #HWTargetDirのコンストラクタ
